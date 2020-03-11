@@ -27,8 +27,7 @@ public class WindFarmDaoImpl implements WindFarmDao {
 
 	public String getWindFarmEnergy(String windFarmId) throws Exception {
 
-		logger.info("In DAO Layer calling API to fetch Energy Trend for WindMill Id as mentioned  :  ");
-		
+		logger.info("In DAO Layer calling API to fetch Energy Trend for WindMill Id  :  ");
 
 		String url = "https://knt68ql4e9.execute-api.us-east-1.amazonaws.com/getFarmData/" + windFarmId + "/daily";
 
