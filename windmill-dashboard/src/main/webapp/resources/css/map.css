@@ -1,0 +1,28 @@
+#monitor_link{
+	font-weight:bold;
+	font-family: helvetica;
+	 text-decoration: none;
+    transition: all .5s;
+}
+
+#monitor_link:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #87AFC7 ;
+  
+  }		 
+
+#link:hover{
+	color: white;
+	background-color: #87AFC7;
+}
+	  
+ /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {  
+        height: 100%;
+		width: 100%;
+		position:absolute;
+
+      }
+      /* Optional: Makes the sample page fill the window. */
